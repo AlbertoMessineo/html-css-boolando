@@ -24,10 +24,47 @@
 }
 /* FLEX-ITEM */
 .flex-item{
+    width: 400px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+/* ELEMENTI POSITION */
 
+.small-container{
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    color: white;
+}
+.sos{
+    padding: 3px;
+    margin-left: 5px;
+    background-color: green;
+    z-index: 99;
+}
+.sconto{
+    padding: 3px;
+    background-color: red;
+    z-index: 99;
+}
+.heart{
+    padding: 6px;
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    background-color: aliceblue;
+    z-index: 99;
+}
+/* ELEMENTI POSITION */
+
+
+
+/* TESTO SOTTO IMMAGINE */
 .description{
     font-size: 14px;
 }
@@ -37,13 +74,33 @@
 }
 .price{
     color: red;
+    
 }
 del{
     color: black;
 }
+/* FINE TESTO SOTTO IMMAGINE */
 
 /* SINGOLA IMMAGINE */
 img{
-    width: 400px;
+    width: 100%;
+}
+.images{
+    position: relative;
+    height: 600px;
+    
+}
+.center{
+    position: absolute;
+}
+
+
+.z-index1{
+    z-index: 1;
+
+}
+.images:hover .z-index2{
+    z-index: 2;
+    transition: 2s;
 }
 /* #endregion MAIN */
