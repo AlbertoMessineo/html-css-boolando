@@ -22,7 +22,7 @@ header{
 .topbar{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #ff6900;
     width: 100%;
@@ -40,7 +40,14 @@ ul{
     display: flex;
     color: white;
     list-style: none;
+    padding: 0 5px;
 }
+
+li{
+    padding: 0 7px;
+
+}
+
 
 /* #endregion HEADER */
 
