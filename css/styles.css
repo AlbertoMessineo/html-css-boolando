@@ -55,24 +55,26 @@ li{
 
 
 /* #region MAIN */
+
+
 .container-flex{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 1260px;
+    width: 1380px;
     margin: 0 auto;
     padding-top: 100px;
     gap: 20px; 
-       
 }
 /* FLEX-ITEM */
 .flex-item{
-    width: 400px;
+    width: 420px;
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-bottom: 30px;
 }
 /* ELEMENTI POSITION */
 
@@ -81,6 +83,9 @@ li{
     position: absolute;
     bottom: 120px;
     color: white;
+}
+p{
+    padding-top: 10px;
 }
 .sos{
     padding: 1px 9px;
